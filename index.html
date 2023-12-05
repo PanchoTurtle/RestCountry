@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class = "contenedor">
+        <div class="main">
+        <div class="container">
+            <h1>Consulta el pais</h1>
+            <div id="message"></div>
+            <input type="text" placeholder="Nombre de la ciudad" id="city">
+            <button id="search">Consultar</button>
+            <br>
+            <br>
+            <div id="country-container"></div>                
+        </div>
+            <div class="container-selector">
+                <label for="continent">Select Continent:</label>
+                <select name="select" id="select">
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Oceania">Oceania</option>
+                    <option value="Americas">Americas</option>
+                  </select>
+                 <br>
+                <button id="region" type="text">Buscar</button>
+                 <div id="region-container"></div>
+                  <div id="message"></div>
+            </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
